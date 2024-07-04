@@ -9,7 +9,7 @@ export default function Posts(){
         if(response.status === 200 ){
             setPosts(response.data.posts)
         }else{
-            setErr('')
+            setErr('Error Fetching posts')
         }
     }
     console.log(posts)
