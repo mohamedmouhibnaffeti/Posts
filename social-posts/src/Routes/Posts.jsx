@@ -19,7 +19,7 @@ export default function Posts(){
     return(
         <section className="postsSection">
             {
-                posts.
+                posts.map((post, index))
             }
         </section>
     )
