@@ -14,7 +14,7 @@ export default function Posts(){
     }
 
     const deletePost = async(id) => {
-        const response = await axios.delete(`http://localhost/api/posts/${id}`)
+        const response = await axios.delete(`http://localhost:3000/api/posts/${id}`)
         if(response.status === 200 ){
             window.location.reload()
         }else{
