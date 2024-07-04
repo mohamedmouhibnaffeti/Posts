@@ -9,7 +9,7 @@
     align-items: center;
     background-color: #dfe3eebe;
     flex-direction: column;
-    min
+    min-height: 100vh;
 }
 
 .innerPostsSection{
