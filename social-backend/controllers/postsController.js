@@ -1,3 +1,3 @@
-module.exports.getAllPosts = (req, res) => {
+module.exports.getAllPosts = async(req, res) => {
     return res.json("Hello World")
 }
