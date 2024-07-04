@@ -5,6 +5,7 @@ export default function Posts(){
             <div className="innerPostsSection">
                 <div className="UserHeader">
                     <span> M N </span>
+                    <span> Mouhib Naffeti </span>
                 </div>
             </div>
         </section>
