@@ -31,10 +31,10 @@ export default function Posts(){
                             </div>
                         </div>
                         <div className="Title">
-                            title
+                            {post.title}
                         </div>
                         <div className="Description">
-                            description
+                            {post.description}
                         </div>
                     </div>
                 ))
