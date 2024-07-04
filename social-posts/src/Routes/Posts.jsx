@@ -2,7 +2,7 @@ import '../CSS/Posts.css'
 export default function Posts(){
 
     const fetchPosts = async () => {
-        const posts = await fetch('http://localhost:3000/api/posts/all')
+        const response = await fetch('http://localhost:3000/api/posts/all')
     }
 
     return(
