@@ -22,10 +22,10 @@ function App() {
           </ul>
         </nav>
 
-        <Roues>
+        <Routes>
           <Route path="/posts" component={Posts} />
           <Route path="/about" component={About} />
-        </Roues>
+        </Routes>
       </div>
     </Router>
   );
