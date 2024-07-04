@@ -12,7 +12,9 @@ export default function Posts(){
             setErr('Error Fetching posts')
         }
     }
-    console.log(posts)
+
+    const deletePost = await()
+
     useEffect(()=>{
         fetchPosts()
     }, [])
