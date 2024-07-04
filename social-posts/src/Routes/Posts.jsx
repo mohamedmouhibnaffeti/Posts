@@ -10,7 +10,7 @@ export default function Posts(){
             const data = await response.json()
             console.log(data)
             setPosts(data.posts)
-            console.log(data)
+            console.log(data.posts)
         }
     }
     console.log(posts)
