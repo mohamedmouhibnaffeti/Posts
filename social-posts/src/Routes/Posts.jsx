@@ -13,7 +13,7 @@ export default function Posts(){
                     </div>
                 </div>
                 <div className="Title">
-
+                    title
                 </div>
                 <div className="Description">
 
