@@ -1,6 +1,6 @@
 const express = require('express')
 const mongoose = require('mongoose')
-import Postsrouter from './routes/postsRouter'
+const PostRouter from 
 const app = express()
 
 app.use(express.json())
