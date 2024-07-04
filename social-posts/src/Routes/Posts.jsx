@@ -16,7 +16,7 @@ export default function Posts(){
                     title
                 </div>
                 <div className="Description">
-
+                    description
                 </div>
             </div>
         </section>
