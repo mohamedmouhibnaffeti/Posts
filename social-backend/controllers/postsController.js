@@ -23,3 +23,5 @@ module.exports.createPost = async(req, res) => {
         return res.status(500).json('Error creating post')
     }
 }
+
+module.exports
