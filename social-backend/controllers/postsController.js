@@ -29,7 +29,7 @@ module.exports.deletePost = async(req, res) => {
         const {id} = req.params
         const postToDelete = await Post.findById(id)
         if(!postToDelete){
-            
+            return res.status(500).json(id)
         }
         return res.json(id)
     }catch(err){
