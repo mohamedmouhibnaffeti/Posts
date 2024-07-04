@@ -4,3 +4,4 @@ const router = express.Router()
 
 router.get("/api/posts", PostsController)
 
+export default router
