@@ -26,7 +26,7 @@ module.exports.createPost = async(req, res) => {
 
 module.exports.deletePost = async(req, res) => {
     try{
-        const id = req.params.id
+        const {id} = req.params
     }catch(err){
         return res.status(500).json('Error creating post')
     }
