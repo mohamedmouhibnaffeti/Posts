@@ -4,7 +4,7 @@ export default function Posts(){
     const [err, setErr] = useState('')
     const [posts, setPosts] = useState([])
     const fetchPosts = async () => {
-        const response = await fetch('http://localhost:3000/api/posts/all')
+        const response = await axios.get('http://localhost:3000/api/posts/all')
         if(response.ok){
             const data = await response.json()
             console.log(data)
