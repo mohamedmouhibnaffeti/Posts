@@ -12,8 +12,8 @@ export default function Posts(){
                         Delete
                     </div>
                 </div>
-                <div>
-                    
+                <div className="Title">
+
                 </div>
             </div>
         </section>
