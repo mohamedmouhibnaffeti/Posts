@@ -15,7 +15,11 @@ export default function Posts(){
 
     const deletePost = async(id) => {
         const response = await axios.delete(`http://localhost/api/posts/${id}`)
-        
+        if(response.status === 200 ){
+            setPosts(response.data.posts)
+        }else{
+            setErr('Error Fetching posts')
+        }
     }
 
     useEffect(()=>{
