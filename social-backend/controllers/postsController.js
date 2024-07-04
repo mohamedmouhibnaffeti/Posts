@@ -14,6 +14,6 @@ module.exports.createPost = async(req, res) => {
             return res.status(400).json('Failed creating post')
         }
     }catch(err){
-        return res.status(500).json('Failed creating post')
+        return res.status(500).json('Error creating post')
     }
 }
