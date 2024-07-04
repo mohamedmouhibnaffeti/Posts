@@ -1,1 +1,1 @@
-const mongoose, {models, model, } = require('mongoose')
+const mongoose, {models, model, Schema} = require('mongoose')
