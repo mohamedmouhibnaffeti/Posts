@@ -14,7 +14,7 @@ export default function Posts(){
     }
 
     const deletePost = async(id) => {
-        
+        const
     }
 
     useEffect(()=>{
