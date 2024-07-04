@@ -13,7 +13,9 @@ export default function Posts(){
         }
     }
 
-    const deletePost = await()
+    const deletePost = async(id) => {
+
+    }
 
     useEffect(()=>{
         fetchPosts()
