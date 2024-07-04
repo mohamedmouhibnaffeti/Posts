@@ -35,6 +35,6 @@ module.exports.deletePost = async(req, res) => {
             return res.status(200).json("post deleted")
         }
     }catch(err){
-        return res.status(500).json('Error creating post')
+        return res.status(500).json('Error deleting post')
     }
 }
