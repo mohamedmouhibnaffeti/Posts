@@ -1,3 +1,7 @@
 const {models, model, Schema} = require('mongoose')
 
-const PostSchema = 
+const PostSchema = Schema({
+
+})
+
+const Post = 
