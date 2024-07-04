@@ -10,7 +10,7 @@ def git_commit_push():
         subprocess.run(["git", "add", "."], check=True)
 
         # Commit changes with a timestamp message
-        commit_message = f"Automated commit at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+        commit_message = f"Fixed issue"
         subprocess.run(["git", "commit", "-m", commit_message], check=True)
 
         # Push changes to the remote repository
@@ -22,8 +22,9 @@ def git_commit_push():
         print(f"An error occurred: {e}")
 
 # Schedule the job every minute
-schedule.every(1).minutes.do(git_commit_push)
+schedule.every(5).seconds.do(git_commit_push)
 
 print("Starting the scheduler...")
 while True:
+    print("starting..")
     schedule.run_pending()
