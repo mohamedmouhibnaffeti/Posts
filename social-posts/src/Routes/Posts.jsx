@@ -6,9 +6,7 @@ export default function Posts(){
     const [posts, setPosts] = useState([])
     const fetchPosts = async () => {
         const response = await axios.get('http://localhost:3000/api/posts/all')
-        if(response.ok){
-            console.log(response)
-        }
+        if(response.status === 200 )
     }
     console.log(posts)
     useEffect(()=>{
