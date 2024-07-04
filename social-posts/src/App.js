@@ -9,6 +9,8 @@ import {
 import Posts from './Routes/Posts';
 import About from './Routes/About';
 
+const router = createBrowserRouter
+
 function App() {
   return (
     <Router>
