@@ -22,7 +22,7 @@ function App() {
 
         <Switch>
           <Route path="/posts" component={About} />
-          <Route path="/contact" component={Contact} />
+          <Route path="/about" component={Contact} />
         </Switch>
       </div>
     </Router>
