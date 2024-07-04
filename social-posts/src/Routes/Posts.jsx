@@ -8,7 +8,7 @@ export default function Posts(){
                         <span className="UserIcon"> M N </span>
                         <span> Mouhib Naffeti </span>
                     </div>
-                    <button style={{backgroundColor: "red", borderRadius: "10px", outline: "none", color: "white", padding: "2px"}}>
+                    <button style={{backgroundColor: "red", borderRadius: "10px", outline: "none", color: "white", padding: "2px", padding-X}}>
                         Delete
                     </button>
                 </div>
