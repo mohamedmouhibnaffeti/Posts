@@ -4,7 +4,8 @@ module.exports.getAllPosts = async(req, res) => {
 
 module.exports.createPost = async(req, res) => {
     try{
-        const {} = req.body
+        const {title, description} = req.body
+        
     }catch(err){
 
     }
