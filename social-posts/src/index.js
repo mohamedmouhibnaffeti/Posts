@@ -10,6 +10,10 @@ const router = createBrowserRouter([
   {
     path: "/posts",
     element: <Posts />
+  },
+  {
+    path: "/about",
+    element: 
   }
 ])
 
