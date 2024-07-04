@@ -1,6 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Routes, Router, Route, Link } from "react-router"
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  Link,
+} from "react-router-dom";
 import Posts from './Routes/Posts';
 import About from './Routes/About';
 
