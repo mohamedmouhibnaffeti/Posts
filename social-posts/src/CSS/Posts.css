@@ -16,9 +16,9 @@
 }
 
 .UserHeader {
-    
+    display: flex;
 }
 
 .UserIcon {
-
+    display: inline;
 }
