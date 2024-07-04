@@ -7,6 +7,7 @@ export default function Posts(){
         const response = await fetch('http://localhost:3000/api/posts/all')
         if(response.ok){
             const data = await response.json()
+            console.log(data)
             setPosts(data.posts)
         }
     }
