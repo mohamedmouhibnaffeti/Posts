@@ -8,7 +8,9 @@ export default function Posts(){
                         <span className="UserIcon"> M N </span>
                         <span> Mouhib Naffeti </span>
                     </div>
-                    
+                    <button>
+                        Delete
+                    </button>
                 </div>
             </div>
         </section>
