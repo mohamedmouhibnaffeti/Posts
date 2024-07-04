@@ -5,7 +5,7 @@ const PostSchema = Schema({
         type: String
     },
     description: [
-        
+        type: String
     ]
 })
 
