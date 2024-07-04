@@ -4,9 +4,9 @@ const PostSchema = Schema({
     title: {
         type: String
     },
-    description: [
+    description: {
         type: String
-    ]
+    }
 })
 
 const Post = models.Post || model('Post', PostSchema)
