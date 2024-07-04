@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import '../CSS/Posts.css'
 export default function Posts(){
-    const [err, setErr] = useState()
+    const [err, setErr] = useState('')
     const fetchPosts = async () => {
         const response = await fetch('http://localhost:3000/api/posts/all')
         if(response.ok){
-
+            
         }
     }
 
