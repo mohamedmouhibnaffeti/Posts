@@ -26,5 +26,4 @@ schedule.every(5).seconds.do(git_commit_push)
 
 print("Starting the scheduler...")
 while True:
-    print("starting..")
     schedule.run_pending()
