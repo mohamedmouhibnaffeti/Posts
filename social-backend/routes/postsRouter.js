@@ -3,5 +3,6 @@ const PostController = require('../controllers/postsController.js')
 const router = express.Router()
 
 router.get('/all', PostController.getAllPosts)
+router.post('/')
 
 module.exports = router
