@@ -12,10 +12,10 @@ function App() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/posts">About</Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link to="/about">Contact</Link>
             </li>
           </ul>
         </nav>
