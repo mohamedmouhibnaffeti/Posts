@@ -1,4 +1,6 @@
 const express = require('express')
+const { PostsController } = require('../controllers/postsController')
 const router = express.Router()
 
-router.get("/api/posts", )
+router.get("/api/posts", PostsController)
+
