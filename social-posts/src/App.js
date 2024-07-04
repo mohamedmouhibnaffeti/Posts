@@ -22,10 +22,10 @@ function App() {
           </ul>
         </nav>
 
-        <Switch>
+        <Roues>
           <Route path="/posts" component={Posts} />
           <Route path="/about" component={About} />
-        </Switch>
+        </Roues>
       </div>
     </Router>
   );
