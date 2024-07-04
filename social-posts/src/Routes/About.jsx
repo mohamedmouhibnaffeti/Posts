@@ -1,4 +1,4 @@
-export default function Posts(){
+export default function About(){
     return(
         <h1>About Page</h1>
     )
