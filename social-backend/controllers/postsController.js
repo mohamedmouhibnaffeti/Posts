@@ -2,7 +2,7 @@ const Post = require('../models/PostModel.js')
 
 module.exports.getAllPosts = async(req, res) => {
     try{
-        const posts = await Post.get()
+        const posts = await Post.find()
         console.log(posts)
         return res.status(200).json(posts)
     }catch(err){
