@@ -4,7 +4,7 @@ export default function Posts(){
         <section className="postsSection">
             <div className="innerPostsSection">
                 <div className="UserHeader">
-                    
+                    <span> M N </span>
                 </div>
             </div>
         </section>
