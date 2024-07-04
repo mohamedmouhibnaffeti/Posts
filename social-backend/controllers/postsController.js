@@ -33,7 +33,6 @@ module.exports.deletePost = async(req, res) => {
         }else{
             await postToDelete.delete()
         }
-        return res.json(id)
     }catch(err){
         return res.status(500).json('Error creating post')
     }
