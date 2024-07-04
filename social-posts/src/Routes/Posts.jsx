@@ -4,7 +4,7 @@ export default function Posts(){
         <section className="postsSection">
             <div className="innerPostsSection">
                 <div className="UserHeader">
-                    <div c>
+                    <div className="innerUserHeader">
                         <span className="UserIcon"> M N </span>
                         <span> Mouhib Naffeti </span>
                     </div>
