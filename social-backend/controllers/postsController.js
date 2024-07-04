@@ -1,7 +1,11 @@
 const Post = require('../models/PostModel.js')
 
 module.exports.getAllPosts = async(req, res) => {
-    return res.json("Hello World")
+    try{
+
+    }catch(err){
+        return res.status(500).json('Error creating post')
+    }
 }
 
 module.exports.createPost = async(req, res) => {
