@@ -4,6 +4,6 @@ const router = express.Router()
 
 router.get('/all', PostController.getAllPosts)
 router.post('/', PostController.createPost)
-router.delete('/')
+router.delete('/:id', PostController.deletePost)
 
 module.exports = router
