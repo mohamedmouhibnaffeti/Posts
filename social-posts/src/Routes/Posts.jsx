@@ -2,7 +2,7 @@ import '../CSS/Posts.css'
 export default function Posts(){
 
     const fetchPosts = async () => {
-        const 
+        const posts = await fetch()
     }
 
     return(
