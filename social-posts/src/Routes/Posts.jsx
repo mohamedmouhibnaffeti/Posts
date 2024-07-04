@@ -11,6 +11,7 @@ export default function Posts(){
         }
     }
     console.log(posts)
+    use
     return(
         <section className="postsSection">
             <div className="innerPostsSection">
