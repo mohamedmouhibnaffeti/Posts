@@ -4,10 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+import Posts from './Routes/Posts';
 
 const router = createBrowserRouter([
   {
-    path: 
+    path: "/posts",
+    element: <Posts />
   }
 ])
 
