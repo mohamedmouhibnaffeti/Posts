@@ -1,7 +1,9 @@
 import '../CSS/Posts.css'
 export default function Posts(){
 
-    const fetchPosts = await ()
+    const fetchPosts = await () => {
+        
+    }
 
     return(
         <section className="postsSection">
