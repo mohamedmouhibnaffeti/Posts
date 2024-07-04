@@ -1,4 +1,5 @@
 const express = require('express')
 const app = express()
 
-app.arguments()
+app.use(express.json())
+
