@@ -4,7 +4,7 @@ module.exports.getAllPosts = async(req, res) => {
     try{
         const posts = await Post.find()
         console.log(posts)
-        return res.status(200).json(posts)
+        return res.status(200).json({posts: posts})
     }catch(err){
         return res.status(500).json('Error fetching post')
     }
