@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 const cors = require('cors')
 
 const corsOptions = {
-    origin: *
+    origin: '*'
 }
 
 mongoose.connect("mongodb://localhost:27017/DevDB")
