@@ -4,4 +4,4 @@ const PostSchema = Schema({
 
 })
 
-const Post = model()
+const Post = model('Post', )
