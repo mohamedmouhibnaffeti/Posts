@@ -14,7 +14,7 @@ export default function Posts(){
     }
 
     const deletePost = async(id) => {
-        const response = await axios.delete('http://localhost/api/posts/${od}')
+        const response = await axios.delete('http://localhost/api/posts/${id})
     }
 
     useEffect(()=>{
