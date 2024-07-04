@@ -24,4 +24,6 @@ module.exports.createPost = async(req, res) => {
     }
 }
 
-module.exports
+module.exports.deletePost = async(req, res) => {
+    
+}
