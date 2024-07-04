@@ -7,7 +7,7 @@ export default function Posts(){
     const fetchPosts = async () => {
         const response = await axios.get('http://localhost:3000/api/posts/all')
         if(response.ok){
-            console.log(response.data.posts)
+            console.log(response)
         }
     }
     console.log(posts)
