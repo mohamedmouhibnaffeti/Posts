@@ -3,6 +3,8 @@ const PostRouter = require('./routes/postsRouter.js')
 const mongoose = require('mongoose')
 const cors = require('cors')
 
+const corsOptions = {}]
+
 mongoose.connect("mongodb://localhost:27017/DevDB")
 
 const app = express()
