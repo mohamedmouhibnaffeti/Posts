@@ -9,7 +9,7 @@ module.exports.createPost = async(req, res) => {
         const {title, description} = req.body
         const createdPost = await Post.create({title, description})
         if(createdPost){
-            return res.status(200).json({})
+            return res.status(200).json('Post Created Successfullly')
         }
     }catch(err){
 
