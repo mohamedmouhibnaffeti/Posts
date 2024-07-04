@@ -18,6 +18,7 @@
 .UserHeader {
     display: flex;
     padding-top: 14px;
+    padding-left: 14px;
 }
 
 .UserIcon {
