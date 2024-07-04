@@ -6,7 +6,7 @@ module.exports.getAllPosts = async(req, res) => {
         console.log(posts)
         return res.status(200).json({posts: posts})
     }catch(err){
-        return res.status(500).json('Error fetching post')
+        return res.status(500).json(message: 'Error fetching post')
     }
 }
 
