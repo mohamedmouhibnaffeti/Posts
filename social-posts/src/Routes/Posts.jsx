@@ -10,7 +10,7 @@ export default function Posts(){
             setPosts(data.posts)
         }
     }
-
+    console.log(posts)
     return(
         <section className="postsSection">
             <div className="innerPostsSection">
