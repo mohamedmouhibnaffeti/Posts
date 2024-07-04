@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     background-color: #dfe3eebe;
+    flex-direction: column;
 }
 
 .innerPostsSection{
