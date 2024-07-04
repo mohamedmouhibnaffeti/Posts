@@ -4,8 +4,11 @@ export default function Posts(){
         <section className="postsSection">
             <div className="innerPostsSection">
                 <div className="UserHeader">
-                    <span className="UserIcon"> M N </span>
-                    <span> Mouhib Naffeti </span>
+                    <div>
+                        <span className="UserIcon"> M N </span>
+                        <span> Mouhib Naffeti </span>
+                    </div>
+                    
                 </div>
             </div>
         </section>
