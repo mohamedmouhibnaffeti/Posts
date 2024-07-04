@@ -4,4 +4,4 @@ const router = express.Router()
 
 router.get("/all", getAllPosts)
 
-export default router
+module.exports = router
