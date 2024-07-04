@@ -2,7 +2,7 @@ const express = require('express')
 const PostRouter = require('./routes/postsRouter.js')
 const mongoose = require('mongoose')
 
-mongoose.connect()
+mongoose.connect("mongodb://localhost:27017/DevDB")
 const app = express()
 
 app.use(express.json())
