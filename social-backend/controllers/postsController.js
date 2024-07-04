@@ -3,6 +3,7 @@ const Post = require('../models/PostModel.js')
 module.exports.getAllPosts = async(req, res) => {
     try{
         const posts = await Post.get()
+        console.log(posts)
         return res.status(200).json(posts)
     }catch(err){
         return res.status(500).json('Error fetching post')
