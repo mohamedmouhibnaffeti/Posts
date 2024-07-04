@@ -1,6 +1,6 @@
 const express = require('express')
 const mongoose = require('mongoose')
-const PostRouter from 
+const PostRouter from ('./routes')
 const app = express()
 
 app.use(express.json())
