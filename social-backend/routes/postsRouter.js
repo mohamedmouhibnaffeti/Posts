@@ -1,8 +1,7 @@
-// File: routes/posts.js
-const express = require('express');
-const { getAllPosts } = require('../controllers/postsController');
-const router = express.Router();
+const express = require('express')
+const PostController = require('../controllers/postsController')
+const router = express.Router()
 
-router.get('/all', getAllPosts);
+router.get('/all', PostController.getAllPosts)
 
-module.exports = router; // Use module.exports for CommonJS syntax
+module.exports = router
