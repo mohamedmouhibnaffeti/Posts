@@ -25,7 +25,15 @@
     justify-content: space-between;
 }
 
-
+.innerUserHeader {
+    display: flex;
+    padding-top: 14px;
+    padding-left: 14px;
+    align-items: center;
+    gap: 4px;
+    font-weight: 500;
+    justify-content: space-between;
+}
 
 .UserIcon {
     display: flex;
