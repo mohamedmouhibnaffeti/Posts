@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import '../CSS/Posts.css'
 export default function Posts(){
     const [err, setErr] = useState('')
@@ -11,7 +11,9 @@ export default function Posts(){
         }
     }
     console.log(posts)
-    use
+    useEffect(()=>{
+        fetchPosts()
+    }, [])
     return(
         <section className="postsSection">
             <div className="innerPostsSection">
