@@ -9,6 +9,9 @@ import About from './Routes/About';
 
 const router = createBrowserRouter([
   {
+    path: '/'
+  },
+  {
     path: "/posts",
     element: <Posts />
   },
