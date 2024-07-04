@@ -12,16 +12,16 @@ function App() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/posts">About</Link>
+              <Link to="/posts">Posts</Link>
             </li>
             <li>
-              <Link to="/about">Contact</Link>
+              <Link to="/about">About</Link>
             </li>
           </ul>
         </nav>
 
         <Switch>
-          <Route path="/about" component={About} />
+          <Route path="/posts" component={About} />
           <Route path="/contact" component={Contact} />
         </Switch>
       </div>
