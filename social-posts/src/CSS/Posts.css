@@ -18,7 +18,8 @@
     padding-top: 14px;
     padding-bottom: 14px;
     display: flex;
-    
+    flex-direction: column;
+    gap: 8px;
 }
 
 .UserHeader {
