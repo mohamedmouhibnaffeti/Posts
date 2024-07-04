@@ -3,7 +3,7 @@ export default function Posts(){
     return(
         <section className="postsSection">
             <div className="innerPostsSection">
-
+                
             </div>
         </section>
     )
