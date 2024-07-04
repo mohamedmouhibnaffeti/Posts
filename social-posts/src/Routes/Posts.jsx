@@ -1,5 +1,8 @@
 import '../CSS/Posts.css'
 export default function Posts(){
+
+    const 
+
     return(
         <section className="postsSection">
             <div className="innerPostsSection">
