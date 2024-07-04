@@ -7,10 +7,7 @@ export default function Posts(){
     const fetchPosts = async () => {
         const response = await axios.get('http://localhost:3000/api/posts/all')
         if(response.ok){
-            const data = await response.json()
-            console.log(data)
-            setPosts(data.posts)
-            console.log(data.posts)
+            const posts = 
         }
     }
     console.log(posts)
