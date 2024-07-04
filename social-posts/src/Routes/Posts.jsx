@@ -12,6 +12,9 @@ export default function Posts(){
                         Delete
                     </div>
                 </div>
+                <div>
+                    
+                </div>
             </div>
         </section>
     )
