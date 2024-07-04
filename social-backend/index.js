@@ -11,6 +11,7 @@ mongoose.connect("mongodb://localhost:27017/DevDB")
 
 const app = express()
 
+app.use(cors(corsOptions))
 app.use(express.json())
 
 
