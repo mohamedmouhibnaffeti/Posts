@@ -2,9 +2,10 @@ const Post = require('../models/PostModel.js')
 
 module.exports.getAllPosts = async(req, res) => {
     try{
-
+        const posts = await Post.get()
+        return json.status
     }catch(err){
-        return res.status(500).json('Error creating post')
+        return res.status(500).json('Error fetching post')
     }
 }
 
