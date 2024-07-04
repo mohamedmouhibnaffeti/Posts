@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router"
+import Posts from './Routes/Posts';
+import About from './Routes/About';
 
 function App() {
   return (
@@ -21,8 +23,8 @@ function App() {
         </nav>
 
         <Switch>
-          <Route path="/posts" component={About} />
-          <Route path="/about" component={Contact} />
+          <Route path="/posts" component={Posts} />
+          <Route path="/about" component={About} />
         </Switch>
       </div>
     </Router>
