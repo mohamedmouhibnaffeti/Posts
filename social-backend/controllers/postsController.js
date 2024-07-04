@@ -28,7 +28,9 @@ module.exports.deletePost = async(req, res) => {
     try{
         const {id} = req.params
         const postToDelete = await Post.findById(id)
-        console.log(deletedPost)
+        if(!postToDelete){
+            
+        }
         return res.json(id)
     }catch(err){
         return res.status(500).json('Error creating post')
