@@ -31,7 +31,7 @@ module.exports.deletePost = async(req, res) => {
         if(!postToDelete){
             return res.status(400).json("post not found")
         }else{
-            await Post.dele
+            await Post.deleteOne({_id: id})
             return res.status(200).json("post deleted")
         }
     }catch(err){
