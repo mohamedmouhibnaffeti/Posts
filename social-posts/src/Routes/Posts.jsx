@@ -8,9 +8,9 @@ export default function Posts(){
                         <span className="UserIcon"> M N </span>
                         <span> Mouhib Naffeti </span>
                     </div>
-                    <button style={{backgroundColor: "red", borderRadius: "10px", outline: "none", color: "white", padding: "2px", paddingLeft: "6px"}}>
+                    <div style={{backgroundColor: "red", borderRadius: "10px", outline: "none", color: "white", padding: "2px", paddingLeft: "6px"}}>
                         Delete
-                    </button>
+                    </div>
                 </div>
             </div>
         </section>
