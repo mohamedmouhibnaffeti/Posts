@@ -35,7 +35,7 @@ export default function Posts(){
                                 <span className="UserIcon"> M N </span>
                                 <span> Mouhib Naffeti </span>
                             </div>
-                            <div style={{backgroundColor: "red", borderRadius: "10px", outline: "none", color: "white", paddingTop: "2px", paddingBottom: "4px", paddingLeft: "12px", paddingRight: "12px", cursor: "pointer"}}>
+                            <div onClick={} style={{backgroundColor: "red", borderRadius: "10px", outline: "none", color: "white", paddingTop: "2px", paddingBottom: "4px", paddingLeft: "12px", paddingRight: "12px", cursor: "pointer"}}>
                                 Delete
                             </div>
                         </div>
