@@ -8,6 +8,8 @@ export default function Posts(){
         const response = await axios.get('http://localhost:3000/api/posts/all')
         if(response.status === 200 ){
             setPosts(response.data.posts)
+        }else{
+            setErr('')
         }
     }
     console.log(posts)
