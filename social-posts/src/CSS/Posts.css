@@ -17,7 +17,8 @@
     padding-right: 14px;
     padding-top: 14px;
     padding-bottom: 14px;
-    gap
+    display: flex;
+    
 }
 
 .UserHeader {
