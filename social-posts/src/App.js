@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router"
+import { BrowserRouter as Router, Route, Link } from "react-router"
 import Posts from './Routes/Posts';
 import About from './Routes/About';
 
