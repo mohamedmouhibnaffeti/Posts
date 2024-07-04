@@ -5,7 +5,8 @@ export default function Posts(){
     const fetchPosts = async () => {
         const response = await fetch('http://localhost:3000/api/posts/all')
         if(response.ok){
-            const data = 
+            const data = await response.json()
+            const posts = data.posts
         }
     }
 
