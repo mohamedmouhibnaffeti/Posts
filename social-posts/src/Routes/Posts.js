@@ -1,1 +1,5 @@
-export default function Posts = ()
+export default function Posts(){
+    return(
+        
+    )
+}
