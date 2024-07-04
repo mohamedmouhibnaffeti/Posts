@@ -1,7 +1,7 @@
 const express = require('express')
-const { PostsController } = require('../controllers/postsController')
+const { getAllPosts } = require('../controllers/postsController')
 const router = express.Router()
 
-router.get("/", )
+router.get("/", getAllPosts)
 
 export default router
