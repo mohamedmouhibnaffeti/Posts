@@ -5,7 +5,7 @@ const app = express()
 
 app.use(express.json())
 
-app.use("/api/posts", PostRouter)
+app.use("/api/posts", router)
 
 app.listen(3000, ()=>{
     console.log("http://localhost:3000")
